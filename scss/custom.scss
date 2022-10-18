@@ -1,5 +1,12 @@
 $body-bg: white;
 $font-family-base: "SoDo Sans SemiBold";
+$secondary: black;
+// $link-color: #1f1f1f;
+// $nav-link-color: #1f1f1f;
+// $navbar-color: #1f1f1f;
+$navbar-light-color: #1f1f1f;
+$navbar-light-hover-color: #00653e;
+// $navbar-light-active-color: rgba($black, 0.9);
 
 @font-face {
   font-family: "Sodo Sans SemiBold";
@@ -7,6 +14,11 @@ $font-family-base: "SoDo Sans SemiBold";
   src: url("../font/d7e8a95865396cddca89b00080d2cba6.woff") format("woff"),
     url("../font/d7e8a95865396cddca89b00080d2cba6.eot") format("opentype"),
     url("../font/d7e8a95865396cddca89b00080d2cba6.svg") format("svg");
+}
+
+@font-face {
+  font-family: "sodo-sans";
+  src: url("../font/sodo-sans.ttf");
 }
 
 .img-cover-left {
@@ -20,12 +32,43 @@ $font-family-base: "SoDo Sans SemiBold";
   background-size: cover;
 }
 
-.navbar {
+header .navbar {
   height: 100px;
+  font-family: "sodo-sans";
 }
 
-header nav .nav-link:hover {
-  color: #00653e;
+header .container-fluid,
+#navbarText,
+#navbarUl,
+#navbarUl li,
+#navbarUl a {
+  height: 100%;
+}
+
+header nav .nav-link {
+  font-size: 13px;
+  letter-spacing: 1.3px;
+}
+
+header nav .btn-secondary:hover {
+  background-color: #3e3e3e;
+}
+
+header nav .btn-outline-secondary:hover {
+  background-color: #f8f8f8;
+  color: #1f1f1f;
+}
+
+header nav .salon:hover {
+  color: #747474;
+}
+
+// header nav .nav-link:hover {
+//   color: #00653e;
+// }
+
+header nav a {
+  height: 100%;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
