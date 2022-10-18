@@ -70,10 +70,14 @@
         </div>
       </nav>
     </header>
+
+    <!-- 
+      Main page
+     -->
     <main>
       <div class="container-fluid gx-0">
         <div class="row gx-0">
-          <div class="col-md-5 position-relative">
+          <div class="col-md-9 position-relative">
             <div class="img-cover-left"></div>
             <!-- <img
               src="../assets/3031_FR_MOP_Homepage_banner_v01.jpg.jfif"
@@ -83,129 +87,139 @@
           </div>
           
 
-          <div class="col-md-7">
-            <section>
+          <div class="col-md-15">
+            <section class="row">
               <img
                 src="../assets/3083_AUT22_FR_Website_Hero_1335x534_PSL_v01.jpg.jfif"
                 alt=""
                 class="img-fluid"
               />
-              <div class="d-flex">
-                <div class="px-5 my-5">
-                  <h2>
+              <div class="col-md-19 offset-md-2 px-0">
+                <div class="my-5" id="seasonBanner">
+                  <h2 class="mb-4">
                     Avec le changement de saison viennent de nouvelles saveurs vives
                     et audacieuses ! 🎃
                   </h2>
-                  <p>
+                  <p class="mb-3">
                     Découvrez nos nouvelles boissons savoureuses et fraîchement
-                    préparées et profitez pleinement du retour du PSL.​ A retrouver en
+                    préparées et profitez pleinement du retour du PSL.​
+                    <br>
+                    A retrouver en
                     édition limitée et en exclusivité chez Starbucks.
                   </p>
-                  <a href="#" class="btn btn-primary" >Trouver votre salon le plus proche</a>
+                  <a href="#" class="btn btn-outline-primary rounded-pill px-4" >Trouver votre salon le plus proche</a>
                 </div>
               </div>
             </section>
-              <section>
-                <div>
-                  <h2 class="text-uppercase">Starbucks rewards</h2>
+
+            <!-- Grid section -->
+            <section style="background-color: #f7f7f7">
+              <!-- @todo padding y de 32px instead of py-5 -->
+              <div class="py-5">
+                <div class="row gx-0">
+                  <h2 class="text-uppercase col-md-19 offset-md-2 px-0 mb-3" >Starbucks rewards</h2>
                 </div>
                 <div class="container px-0">
                   <div class="row gx-0">
-                    <div class="col-6">
+                    <div class="col-10 offset-md-2">
                       <img
                         src="../assets/030612_Starbucks_MOP_FR_v01_0.jpg.jfif"
                         alt=""
                         class="img-fluid"
                       />
                     </div>
-                    <div class="col-6">
+                    
+                    
+                    <div class="col-6 offset-md-2">
                       <h3>
                         Nouveau: Click & Collect Avec l'application Starbucks®
                       </h3>
                       <p>France, vous pouvez commander sur le pouce.</p>
                       <p>Commandez à l'avance et cumulez les étoiles.</p>
-                      <a href="#" class="btn btn-primary">Télécharger l'appli</a>
+                      <a href="#" class="btn btn-outline-primary rounded-pill px-4">Télécharger l'appli</a>
                     </div>
                   </div>
                 </div>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-6">
-                      <div class="card" style="width: 18rem;">
-                        <img src="../assets/Order-Ahead-Hero-Image-C06-RESIZED.jpg.jfif" class="card-img-top" alt="">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6">
-                      <div class="card" style="width: 18rem;">
-                        <img src="../assets/SBX Delivers Generic-Handoff_SO 560x321px.jpg.jfif" class="card-img-top" alt="">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6">
-                      <div class="card" style="width: 18rem;">
-                        <img src="../assets/About-Us-Card-Image-C06-RESIZED (2)_0.jpg.jfif" class="card-img-top" alt="">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6">
-                      <div class="card" style="width: 18rem;">
-                        <img src="../assets/Starbucks-Stories-Card-Image-C06-RESIZED.jpg.jfif" class="card-img-top" alt="">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
+              </div>
+              <!-- @todo padding y de 32px instead of py-5 -->
+              <div class="container px-0 py-5">
+                <div class="row offset-md-2 gx-3 gy-5">
+                  <div class="col-11 col-card">
+                    <div class="card shadow-sm rounded-0">
+                      <img src="../assets/Order-Ahead-Hero-Image-C06-RESIZED.jpg.jfif" class="card-img-top rounded-0" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Appli Starbucks France</h5>
+                        <p class="card-text">Gagnez du temps grâce au Click & Collect et cumulez vos étoiles 🌟
+                          Commander n'aura jamais été aussi simple.</p>
+                        <a href="#" class="btn btn-outline-primary rounded-pill px-4">En savoir plus</a>
                       </div>
                     </div>
                   </div>
-              </section>
-              <section>
-                <div class="accordion accordion-flush" id="accordionFlushExample">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        Accordion Item #1
-                      </button>
-                    </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  <div class="col-11 col-card">
+                    <div class="card shadow-sm rounded-0">
+                      <img src="../assets/SBX Delivers Generic-Handoff_SO 560x321px.jpg.jfif" class="card-img-top  rounded-0" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Starbucks Delivers</h5>
+                        <p class="card-text">Faites-vous livrer vos plats et boissons préférés à votre porte.</p>
+                        <a href="#" class="btn btn-outline-primary rounded-pill px-4">Go somewhere</a>
+                      </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        Accordion Item #2
-                      </button>
-                    </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  <div class="col-11 col-card">
+                    <div class="card shadow-sm rounded-0">
+                      <img src="../assets/About-Us-Card-Image-C06-RESIZED (2)_0.jpg.jfif" class="card-img-top rounded-0" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">A propos</h5>
+                        <p class="card-text">Découvrez notre entreprise et notre histoire.</p>
+                        <a href="#" class="btn btn-outline-primary rounded-pill px-4">Plus d'info</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-11 col-card">
+                    <div class="card shadow-sm rounded-0">
+                      <img src="../assets/Starbucks-Stories-Card-Image-C06-RESIZED.jpg.jfif" class="card-img-top rounded-0" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Starbucks Stories</h5>
+                        <p class="card-text">Soyez informés de nos dernières nouveautés et actualités.</p>
+                        <a href="#" class="btn btn-outline-primary rounded-pill px-4">Plus d'info</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <hr>
-                <p>ICONS</p>
-                <a href="#">Politique de Confidentialité</a><br>
-                <a href="#">Conditions d’utilisations et Mentions Légales</a><br>
-                <a href="#">Avis relatif aux cookies</a><br>
-                <a href="#">Conditions générales du programme de fidélité Starbucks® Rewards</a><br>
-                <a href="#">Cookies</a><br>
-                <p>© 2020 Starbucks Coffee Corporation. Tous droits réservés</p>
-                <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
-              </section>
-            </div>
+            </section>
+            <section>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <p>ICONS</p>
+              <a href="#">Politique de Confidentialité</a><br>
+              <a href="#">Conditions d’utilisations et Mentions Légales</a><br>
+              <a href="#">Avis relatif aux cookies</a><br>
+              <a href="#">Conditions générales du programme de fidélité Starbucks® Rewards</a><br>
+              <a href="#">Cookies</a><br>
+              <p>© 2020 Starbucks Coffee Corporation. Tous droits réservés</p>
+            </section>
+            
           </div>
         </div>
       </div>

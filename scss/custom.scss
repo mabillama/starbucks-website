@@ -1,12 +1,16 @@
 $body-bg: white;
 $font-family-base: "SoDo Sans SemiBold";
 $secondary: black;
+$primary: #008248;
 // $link-color: #1f1f1f;
 // $nav-link-color: #1f1f1f;
 // $navbar-color: #1f1f1f;
 $navbar-light-color: #1f1f1f;
 $navbar-light-hover-color: #00653e;
 // $navbar-light-active-color: rgba($black, 0.9);
+$grid-columns: 24;
+$font-size-root: 10px;
+$font-size-base: 1.4rem;
 
 @font-face {
   font-family: "Sodo Sans SemiBold";
@@ -69,6 +73,10 @@ header nav .salon:hover {
 
 header nav a {
   height: 100%;
+}
+
+.col-card {
+  width: calc(50% - 0.5rem);
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
