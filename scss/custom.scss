@@ -12,6 +12,17 @@ $grid-columns: 24;
 $font-size-root: 10px;
 $font-size-base: 1.4rem;
 
+// Redefining spacers
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.8,
+  2: $spacer * 1.2,
+  3: $spacer * 1.6,
+  4: $spacer * 2.4,
+  5: $spacer * 3.2,
+);
+
 @font-face {
   font-family: "Sodo Sans SemiBold";
   src: url("../font/SoDo\ Sans\ SemiBold.ttf");
