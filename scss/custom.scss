@@ -1,4 +1,13 @@
 $body-bg: white;
+$font-family-base: "SoDo Sans SemiBold";
+
+@font-face {
+  font-family: "Sodo Sans SemiBold";
+  src: url("../font/SoDo\ Sans\ SemiBold.ttf");
+  src: url("../font/d7e8a95865396cddca89b00080d2cba6.woff") format("woff"),
+    url("../font/d7e8a95865396cddca89b00080d2cba6.eot") format("opentype"),
+    url("../font/d7e8a95865396cddca89b00080d2cba6.svg") format("svg");
+}
 
 .img-cover-left {
   width: 100%;
@@ -13,6 +22,10 @@ $body-bg: white;
 
 .navbar {
   height: 100px;
+}
+
+header nav .nav-link:hover {
+  color: #00653e;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
