@@ -30,7 +30,7 @@ $display-font-sizes: (
   2: 4.5rem,
   3: 4rem,
   4: 3.5rem,
-  5: 3rem,
+  5: 2.3rem,
   6: 1.3rem,
 );
 
@@ -129,6 +129,23 @@ h4,
 h5,
 h6 {
   color: #1f1f1f;
+}
+
+.icon-span {
+}
+
+footer,
+footer a {
+  color: #1f1f1f;
+  display: block;
+}
+
+footer a:hover {
+  color: #6c6c6c;
+}
+
+.copyright {
+  color: #6c6c6c;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
