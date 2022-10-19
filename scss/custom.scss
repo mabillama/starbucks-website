@@ -1,5 +1,5 @@
 $body-bg: white;
-$font-family-base: "SoDo Sans SemiBold";
+$font-family-base: "SoDo Sans";
 $secondary: black;
 $primary: #008248;
 // $link-color: #1f1f1f;
@@ -32,9 +32,19 @@ $spacers: (
 }
 
 @font-face {
-  font-family: "sodo-sans";
-  src: url("../font/sodo-sans.ttf");
+  font-family: "SoDo Sans";
+  src: local("SoDo Sans Regular"), local("SoDo-Sans-Regular"),
+    url("../font/SoDoSans-Regular.woff2") format("woff2"),
+    url("../font/SoDoSans-Regular.woff") format("woff"),
+    url("../font/SoDoSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
+
+// @font-face {
+//   font-family: "sodo-sans";
+//   src: url("../font/sodo-sans.ttf");
+// }
 
 .img-cover-left {
   width: 100%;
@@ -49,7 +59,8 @@ $spacers: (
 
 header .navbar {
   height: 100px;
-  font-family: "sodo-sans";
+  letter-spacing: 1.3rem;
+  font-family: "SoDo Sans";
 }
 
 header .container-fluid,
@@ -88,6 +99,12 @@ header nav a {
 
 .col-card {
   width: calc(50% - 0.5rem);
+}
+
+// FOOTER
+
+footer {
+  padding-bottom: 132px;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
