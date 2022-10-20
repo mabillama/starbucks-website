@@ -90,10 +90,15 @@ $grid-breakpoints: (
 
   position: sticky;
   top: 0;
+  left: 0;
   background-image: url("../assets/3031_FR_MOP_Homepage_banner_v01.jpg.jfif");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+// .left-banner-container {
+//   overflow: visible;
+// }
 
 header .navbar {
   height: 100px;
@@ -143,6 +148,12 @@ header nav a {
 
 footer {
   padding-bottom: 132px;
+}
+
+@media only screen and (max-width: 1024px) {
+  footer {
+    padding-bottom: 80px;
+  }
 }
 
 main {
