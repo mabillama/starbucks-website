@@ -40,6 +40,27 @@ $accordion-button-active-bg: none;
 $accordion-button-active-color: #1f1f1f;
 $accordion-button-focus-box-shadow: none;
 
+/* Breakpoints
+--breakpointSm(>= 480px)
+Active
+--breakpointMd(>= 768px)
+Active
+--breakpointLg(>= 1024px)
+Active
+--breakpointXl(>= 1280px)
+Active
+--breakpointXxl(>= 1600px)
+*/
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px,
+  xxl: 1600px,
+);
+
 @font-face {
   font-family: "Sodo Sans SemiBold";
   src: url("../font/SoDo\ Sans\ SemiBold.ttf");
